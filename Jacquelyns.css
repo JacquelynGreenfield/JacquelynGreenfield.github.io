@@ -25,6 +25,18 @@ a: visited: {
 	color: #ff96ca
 }
 
-background-color {
-	color: #ff96ca;
+body {
+	background-color: #ffc3e1
+}
+
+#title1 {
+	float: left;
+}
+
+#p1 {
+	float: left;
+}
+
+div {
+	text-align: center
 }
