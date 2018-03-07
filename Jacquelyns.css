@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
 
 body {
-	font-family: Cinzel, PT serif, Arapey, Lora, gilda display, arial, serif;
+	font-family: Cinzel Decorative, PT serif, Arapey, gilda display, arial, serif;
 }
+
+
 
 
 h1 {
@@ -40,4 +42,20 @@ body {
 
 div {
 	text-align: center
+}
+
+@media (max-width: 1024px)) {
+	img {
+		height: 500px;
+		width: 500px
+	}
+
+	#main-container {
+		font-size: 100px;
+		text-align: center;
+	}
+
+	h1 {
+	font-size: 200px;
+	}
 }
